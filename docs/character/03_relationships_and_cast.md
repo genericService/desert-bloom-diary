@@ -1,7 +1,7 @@
 # Cast & Character Relationships: Desert Bloom
 
 > **File Path**: `docs/character/03_relationships_and_cast.md`  
-> **Subject**: Supporting Cast, Family Dynamics & Care Team Profiles  
+> **Subject**: Supporting Cast, Family Dynamics, Relationship Realism & Care Team Profiles  
 
 ---
 
@@ -19,7 +19,26 @@
 
 ---
 
-## 2. Cholla (Rescue Dog)
+## 2. Maya & Alex Relationship Dynamics (Real Couple Realism)
+
+### Natural Bickering & Worry
+- **Summer Thermostat Wars**: Alex wants the AC set to 74° for energy efficiency; pregnant Maya is overheating at 109° outside and turns it down to 69°.
+- **Studio Mess vs. Desk Space**: Alex leaves his half-empty espresso mugs on Maya's drafting table; Maya leaves acrylic paint brushes near his laptop charger.
+- **Career & Schedule Friction**: Alex gets paged for a late-night software incident right when Maya needs help with dinner; Maya works late to meet client logo deadlines.
+- **Going to Bed Upset**: Sometimes after a long day of heat, exhaustion, and financial worries about baby gear, they turn off the lights annoyed with each other without a neat Hollywood resolution.
+
+### Healthy, Natural Resolution (STRICT NO-THERAPY-TALK RULE)
+- **NO Therapy Speak**: Absolutely ZERO clinical HR/therapy buzzwords (*"holding space"*, *"validating boundaries"*, *"processing triggers"*, *"emotional labor"*, *"active listening rubrics"*). Real spouses don't talk like relationship podcasts.
+- **How They Actually Resolve Conflicts**:
+  - Making an extra cup of pour-over coffee or iced ginger tea in the morning without being asked.
+  - Walking into the kitchen barefoot the next day and saying *"I'm sorry I snapped at you last night, I was just really anxious about work."*
+  - Laughing at how silly they were being over IKEA drawer instructions.
+  - Alex silently grabbing Maya's hand while sitting on the patio watching sunset.
+  - A quiet hug in the hallway while Cholla sits between them.
+
+---
+
+## 3. Cholla (Rescue Dog)
 
 * **Species/Breed**: Arizona rescue dog mix (desert wheat/tan fur, soft floppy ears, dark expressive eyes).  
 * **Origin**: Adopted from an East Valley rescue shelter in 2022; named after the Sonoran desert cactus.  
@@ -27,10 +46,11 @@
   - The intuitive household companion who senses Maya's pregnancy early in Week 5 (nudging the bathroom door open and resting her head on Maya's knees).
   - Rests her chin directly on Maya's bump while Maya works at her design desk.
   - Sniffs and inspects all nursery furniture to "approve" baby Mateo's space.
+  - Steals clean laundry socks when Maya and Alex are bickering, forcing them to stop and laugh.
 
 ---
 
-## 3. Maya’s Mother ("Mama")
+## 4. Maya’s Mother ("Mama")
 
 * **Location**: Mesa, Arizona (15-minute drive from South Tempe).  
 * **Personality**: Warm, traditional, nurturing, protective.  
@@ -42,10 +62,10 @@
 
 ---
 
-## 4. MomDoc Tempe Care Team (`1634 S. Priest Dr., Tempe, AZ 85281`)
+## 5. MomDoc Tempe Care Team (`1634 S. Priest Dr., Tempe, AZ 85281`)
 
 * **Clinic Environment**: "Living Room" waiting lobby designed with soft armchairs, warm oak wood shelving, potted succulents, and natural sunlight.
-* **Care Model**: Collaborative OB/GYN physicians and Certified Nurse-Midwives providing low-intervention, trauma-informed, patient-centered care.
+* **Care Model**: Collaborative OB/GYN physicians and Certified Nurse-Midwives providing low-intervention, patient-centered care.
 * **Key Interactions in Story**:
   - **Week 5**: Receptionist provides immediate intake scheduling and calm prenatal advice.
   - **Week 9**: Ultrasound technician and physician perform first 9-week ultrasound scan, confirming 165 BPM heartbeat.
