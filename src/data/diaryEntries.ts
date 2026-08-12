@@ -43,8 +43,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 4,
     energyLevel: 3,
     readTime: "3 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/maya_rivera_portrait.jpg",
     isMilestone: true,
   },
   {
@@ -84,8 +83,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 3,
     energyLevel: 2,
     readTime: "3 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/iced_ginger_tea_patio.jpg",
   },
   {
     id: "week-9",
@@ -125,8 +123,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 3,
     readTime: "4 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/ultrasound_prints_car.jpg",
     isMilestone: true,
   },
   {
@@ -170,8 +167,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 4,
     readTime: "3 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/kiwanis_park_tempe.jpg",
   },
   {
     id: "week-15",
@@ -215,8 +211,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 4,
     energyLevel: 5,
     readTime: "3 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/maya_rivera_portrait.jpg",
   },
   {
     id: "week-18",
@@ -256,8 +251,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 4,
     readTime: "4 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/momdoc_tempe_lobby.jpg",
     isMilestone: true,
   },
   {
@@ -303,8 +297,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 4,
     readTime: "4 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/alex_maya_cholla.jpg",
     isMilestone: true,
   },
   {
@@ -351,8 +344,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 4,
     energyLevel: 4,
     readTime: "4 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/tempe_nursery_room.jpg",
   },
   {
     id: "week-28",
@@ -397,8 +389,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 3,
     readTime: "3 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/tempe_nursery_room.jpg",
     isMilestone: true,
   },
   {
@@ -444,8 +435,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 3,
     readTime: "4 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/kiwanis_park_tempe.jpg",
   },
   {
     id: "week-36",
@@ -490,8 +480,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 4,
     energyLevel: 2,
     readTime: "4 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1519689680058-324335c77eba?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/alex_maya_cholla.jpg",
     isMilestone: true,
   },
   {
@@ -535,8 +524,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 3,
     readTime: "3 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/kiwanis_park_tempe.jpg",
   },
   {
     id: "week-40-birth",
@@ -583,8 +571,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 4,
     readTime: "5 min read",
-    coverImage:
-      "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=1200&q=80",
+    coverImage: "/images/newborn_mateo_swaddle.jpg",
     isMilestone: true,
   },
 ];

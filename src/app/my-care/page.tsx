@@ -3,16 +3,7 @@ import { Metadata } from "next";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { MOMDOC_TEMPE_INFO } from "@/data/momdocInfo";
-import {
-  Heart,
-  Stethoscope,
-  MapPin,
-  ExternalLink,
-  ShieldCheck,
-  Sun,
-  Coffee,
-  ShoppingBag,
-} from "lucide-react";
+import { Heart, MapPin, ExternalLink } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "My Care & Local Tempe Resources | Desert Bloom Diary",
@@ -30,6 +21,7 @@ export default function MyCarePage() {
       description:
         'Home-like "Living Room" waiting area, same-day access, consistent OB/GYN physicians and Certified Nurse-Midwives.',
       link: MOMDOC_TEMPE_INFO.website,
+      image: "/images/momdoc_tempe_lobby.jpg",
       isPrimary: true,
     },
     {
@@ -40,6 +32,7 @@ export default function MyCarePage() {
       description:
         "Shaded path around the lake, duck ponds, and peaceful benches for first & third trimester morning walks.",
       link: "https://www.tempe.gov/government/community-services/parks/kiwanis-park",
+      image: "/images/kiwanis_park_tempe.jpg",
       isPrimary: false,
     },
     {
@@ -50,6 +43,7 @@ export default function MyCarePage() {
       description:
         "Walkable boutique shops with soft linen trousers and desert accessories for growing bumps.",
       link: "https://www.downtowntempe.com",
+      image: "/images/maya_rivera_portrait.jpg",
       isPrimary: false,
     },
     {
@@ -60,6 +54,7 @@ export default function MyCarePage() {
       description:
         "Shaded courtyard gardens, quiet seating, and pregnancy reading materials.",
       link: "https://www.tempe.gov/government/community-services/tempe-public-library",
+      image: "/images/iced_ginger_tea_patio.jpg",
       isPrimary: false,
     },
   ];
@@ -91,65 +86,72 @@ export default function MyCarePage() {
             {localResources.map((res, idx) => (
               <div
                 key={idx}
-                className={`p-8 rounded-3xl border shadow-xl flex flex-col justify-between space-y-6 ${
+                className={`rounded-3xl border shadow-xl flex flex-col justify-between overflow-hidden ${
                   res.isPrimary
                     ? "bg-gradient-to-br from-sage-900 via-stone-900 to-stone-900 text-white border-sage-700"
                     : "bg-white dark:bg-stone-800 text-stone-900 dark:text-stone-100 border-sand-200 dark:border-stone-700"
                 }`}
               >
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between">
+                <div className="h-52 overflow-hidden relative">
+                  <img
+                    src={res.image}
+                    alt={res.name}
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-stone-900/60 to-transparent" />
+                  <div className="absolute top-3 left-3 flex items-center gap-2">
                     <span
-                      className={`text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider ${
+                      className={`text-xs font-bold px-3 py-1 rounded-xl uppercase tracking-wider shadow-xs backdrop-blur-md ${
                         res.isPrimary
-                          ? "bg-sage-800 text-sage-300 border border-sage-700"
-                          : "bg-sand-100 dark:bg-stone-900 text-terracotta-700 dark:text-terracotta-300"
+                          ? "bg-sage-900/90 text-sage-200 border border-sage-700"
+                          : "bg-stone-900/80 text-white border border-white/20"
                       }`}
                     >
                       {res.category}
                     </span>
-                    {res.isPrimary && (
-                      <span className="text-[10px] font-bold px-2 py-0.5 rounded bg-terracotta-600 text-white">
-                        Primary Provider
-                      </span>
-                    )}
                   </div>
-
-                  <h2 className="font-serif text-2xl font-bold">{res.name}</h2>
-
-                  <p
-                    className={`text-xs flex items-start gap-2 ${res.isPrimary ? "text-stone-300" : "text-stone-600 dark:text-stone-400"}`}
-                  >
-                    <MapPin className="w-4 h-4 text-terracotta-500 shrink-0 mt-0.5" />
-                    <span>{res.address}</span>
-                  </p>
-
-                  <p
-                    className={`text-sm leading-relaxed ${res.isPrimary ? "text-stone-200" : "text-stone-700 dark:text-stone-300"}`}
-                  >
-                    {res.description}
-                  </p>
                 </div>
 
-                <div className="pt-4 border-t border-stone-700/50 flex items-center justify-between text-xs">
-                  {res.phone !== "N/A" && (
-                    <span className="font-bold text-emerald-400">
-                      {res.phone}
-                    </span>
-                  )}
-                  <a
-                    href={res.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`inline-flex items-center gap-1.5 font-bold hover:underline ${
-                      res.isPrimary
-                        ? "text-terracotta-400"
-                        : "text-terracotta-600 dark:text-terracotta-400"
-                    }`}
-                  >
-                    <span>Visit Website</span>
-                    <ExternalLink className="w-3.5 h-3.5" />
-                  </a>
+                <div className="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                  <div className="space-y-3">
+                    <h2 className="font-serif text-2xl font-bold">
+                      {res.name}
+                    </h2>
+
+                    <p
+                      className={`text-xs flex items-start gap-2 ${res.isPrimary ? "text-stone-300" : "text-stone-600 dark:text-stone-400"}`}
+                    >
+                      <MapPin className="w-4 h-4 text-terracotta-500 shrink-0 mt-0.5" />
+                      <span>{res.address}</span>
+                    </p>
+
+                    <p
+                      className={`text-sm leading-relaxed ${res.isPrimary ? "text-stone-200" : "text-stone-700 dark:text-stone-300"}`}
+                    >
+                      {res.description}
+                    </p>
+                  </div>
+
+                  <div className="pt-4 border-t border-stone-700/50 flex items-center justify-between text-xs">
+                    {res.phone !== "N/A" && (
+                      <span className="font-bold text-emerald-400">
+                        {res.phone}
+                      </span>
+                    )}
+                    <a
+                      href={res.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`inline-flex items-center gap-1.5 font-bold hover:underline ${
+                        res.isPrimary
+                          ? "text-terracotta-400"
+                          : "text-terracotta-600 dark:text-terracotta-400"
+                      }`}
+                    >
+                      <span>Visit Website</span>
+                      <ExternalLink className="w-3.5 h-3.5" />
+                    </a>
+                  </div>
                 </div>
               </div>
             ))}

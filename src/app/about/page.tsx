@@ -3,16 +3,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import {
-  Flower2,
-  MapPin,
-  Heart,
-  ShieldCheck,
-  Sparkles,
-  User,
-  Dog,
-  Laptop,
-} from "lucide-react";
+import { Flower2, MapPin, Heart, Laptop, User, Dog } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "About Maya Rivera & Desert Bloom | Tempe Pregnancy Journal",
@@ -42,45 +33,73 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Persona Detail Cards */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="bg-white dark:bg-stone-800 p-6 rounded-3xl border border-sand-200 dark:border-stone-700 shadow-lg text-center space-y-3">
-              <div className="w-12 h-12 mx-auto rounded-2xl bg-terracotta-100 dark:bg-terracotta-950 text-terracotta-600 flex items-center justify-center">
-                <Laptop className="w-6 h-6" />
-              </div>
-              <h3 className="font-serif font-bold text-lg text-stone-900 dark:text-white">
-                Graphic Designer
-              </h3>
-              <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed">
-                29 years old, working independently with local Arizona brands
-                and small businesses.
+          {/* Hero Feature Portrait */}
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-center bg-white dark:bg-stone-800 rounded-3xl p-6 sm:p-8 border border-sand-200 dark:border-stone-700 shadow-xl">
+            <div className="md:col-span-5 h-72 rounded-2xl overflow-hidden shadow-md">
+              <img
+                src="/images/maya_rivera_portrait.jpg"
+                alt="Maya Rivera in her Tempe design studio"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="md:col-span-7 space-y-4 text-sm text-stone-700 dark:text-stone-300 leading-relaxed">
+              <span className="text-xs font-bold uppercase tracking-wider text-terracotta-600 dark:text-terracotta-400">
+                Freelance Designer & Tempe Resident
+              </span>
+              <h2 className="font-serif text-2xl font-bold text-stone-900 dark:text-white">
+                Designing for Local Arizona Brands & Capturing Life
+              </h2>
+              <p>
+                I am a 29-year-old Mexican-American graphic designer living in
+                Tempe with my husband Alex (a software engineer) and our rescue
+                dog Cholla. I work independently with local businesses across
+                the East Valley, designing logos, typography, and brand systems.
               </p>
             </div>
+          </div>
 
-            <div className="bg-white dark:bg-stone-800 p-6 rounded-3xl border border-sand-200 dark:border-stone-700 shadow-lg text-center space-y-3">
-              <div className="w-12 h-12 mx-auto rounded-2xl bg-sage-100 dark:bg-sage-950 text-sage-600 flex items-center justify-center">
-                <User className="w-6 h-6" />
+          {/* Family & Nursery Showcase */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Alex, Maya & Cholla Card */}
+            <div className="bg-white dark:bg-stone-800 rounded-3xl overflow-hidden border border-sand-200 dark:border-stone-700 shadow-lg flex flex-col justify-between">
+              <div className="h-64 overflow-hidden">
+                <img
+                  src="/images/alex_maya_cholla.jpg"
+                  alt="Alex, Maya and Cholla in their Tempe living room"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-serif font-bold text-lg text-stone-900 dark:text-white">
-                Family & Life
-              </h3>
-              <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed">
-                Married to Alex (software engineer). Mexican-American roots with
-                family in the Valley.
-              </p>
+              <div className="p-6 space-y-2">
+                <h3 className="font-serif font-bold text-lg text-stone-900 dark:text-white">
+                  Alex & Cholla
+                </h3>
+                <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed">
+                  Alex keeps iced ginger tea prepped and took Cholla on evening
+                  walks during the hot first trimester days. Cholla knew I was
+                  pregnant before anyone else did!
+                </p>
+              </div>
             </div>
 
-            <div className="bg-white dark:bg-stone-800 p-6 rounded-3xl border border-sand-200 dark:border-stone-700 shadow-lg text-center space-y-3">
-              <div className="w-12 h-12 mx-auto rounded-2xl bg-amber-100 dark:bg-amber-950 text-amber-600 flex items-center justify-center">
-                <Dog className="w-6 h-6" />
+            {/* Nursery Room Card */}
+            <div className="bg-white dark:bg-stone-800 rounded-3xl overflow-hidden border border-sand-200 dark:border-stone-700 shadow-lg flex flex-col justify-between">
+              <div className="h-64 overflow-hidden">
+                <img
+                  src="/images/tempe_nursery_room.jpg"
+                  alt="Sonoran sage green nursery room in Tempe"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <h3 className="font-serif font-bold text-lg text-stone-900 dark:text-white">
-                Cholla the Rescue
-              </h3>
-              <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed">
-                Our sweet rescue dog who knew I was pregnant before anyone else
-                did!
-              </p>
+              <div className="p-6 space-y-2">
+                <h3 className="font-serif font-bold text-lg text-stone-900 dark:text-white">
+                  Our Sonoran Nursery
+                </h3>
+                <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed">
+                  Painted in soft Sonoran sage green with terracotta linen
+                  bedding, potted window succulents, and natural wooden crib for
+                  baby Mateo.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -105,11 +124,6 @@ export default function AboutPage() {
               morning sickness, design deadlines, citrus blossom walks, finding
               maternity clothes on Mill Avenue, and receiving warm prenatal care
               from our midwives at MomDoc Tempe on Priest Drive.
-            </p>
-            <p>
-              Whether you are expectant parents in Tempe, Chandler, Gilbert,
-              Mesa, or Phoenix, I hope this space offers comfort, honesty, and a
-              sense of community.
             </p>
 
             <div className="pt-4 flex flex-wrap gap-4 border-t border-sand-200 dark:border-stone-700">
