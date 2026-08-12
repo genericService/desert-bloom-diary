@@ -48,7 +48,7 @@ export function Header({ onSearchClick }: HeaderProps) {
 
   const navLinks = [
     { href: "/", label: "Diary Entries", icon: Calendar },
-    { href: "/tracker", label: "40-Week Growth Tracker", icon: Flower2 },
+    { href: "/tracker", label: "40-Week Growth Scale", icon: Flower2 },
     { href: "/momdoc-tempe", label: "MomDoc Tempe Care", icon: Stethoscope },
     { href: "/about", label: "About Maya", icon: Heart },
     { href: "/my-care", label: "Local Resources", icon: Bookmark },
@@ -56,30 +56,30 @@ export function Header({ onSearchClick }: HeaderProps) {
   ];
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-sand-200 dark:border-stone-800 bg-sand-50/90 dark:bg-stone-900/90 backdrop-blur-md transition-colors">
+    <header className="sticky top-0 z-40 w-full border-b border-rose-100 dark:border-stone-800 bg-sand-50/90 dark:bg-stone-900/90 backdrop-blur-md transition-colors">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         {/* Brand logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-terracotta-500 to-terracotta-700 text-white flex items-center justify-center shadow-md shadow-terracotta-500/20 group-hover:scale-105 transition-transform">
+          <div className="w-11 h-11 rounded-2xl bg-gradient-to-br from-terracotta-400 via-rose-500 to-terracotta-600 text-white flex items-center justify-center shadow-md shadow-terracotta-500/20 group-hover:scale-105 transition-transform">
             <Flower2 className="w-6 h-6 animate-pulse" />
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <span className="font-bold text-xl tracking-tight text-stone-900 dark:text-stone-100 font-serif">
+              <span className="font-serif font-bold text-2xl tracking-tight text-stone-900 dark:text-stone-100">
                 Desert Bloom Diary
               </span>
-              <span className="text-xs px-2 py-0.5 rounded-full font-semibold bg-terracotta-100 dark:bg-terracotta-950/80 text-terracotta-700 dark:text-terracotta-300 border border-terracotta-200 dark:border-terracotta-800">
+              <span className="text-xs px-2.5 py-0.5 rounded-full font-medium bg-rose-100/80 dark:bg-rose-950/80 text-rose-800 dark:text-rose-300 border border-rose-200 dark:border-rose-800">
                 Tempe, AZ
               </span>
             </div>
-            <p className="text-xs text-stone-500 dark:text-stone-400 font-medium">
+            <p className="text-xs text-stone-500 dark:text-stone-400 font-normal italic">
               Maya Rivera &bull; Aug 2025 – Apr 2026
             </p>
           </div>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-1 bg-white/70 dark:bg-stone-800/70 p-1.5 rounded-2xl border border-sand-200 dark:border-stone-700/80 shadow-xs">
+        <nav className="hidden md:flex items-center gap-1 bg-white/80 dark:bg-stone-800/80 p-1.5 rounded-2xl border border-rose-100/80 dark:border-stone-700/80 shadow-2xs">
           {navLinks.map((link) => {
             const Icon = link.icon;
             const isActive = pathname === link.href;
@@ -90,7 +90,7 @@ export function Header({ onSearchClick }: HeaderProps) {
                 className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-sm font-medium transition-all ${
                   isActive
                     ? "bg-terracotta-600 text-white shadow-xs font-semibold"
-                    : "text-stone-700 dark:text-stone-300 hover:text-terracotta-600 dark:hover:text-terracotta-400 hover:bg-sand-100/70 dark:hover:bg-stone-700/50"
+                    : "text-stone-700 dark:text-stone-300 hover:text-terracotta-600 dark:hover:text-terracotta-400 hover:bg-rose-50/70 dark:hover:bg-stone-700/50"
                 }`}
               >
                 <Icon className="w-4 h-4" />
@@ -106,7 +106,7 @@ export function Header({ onSearchClick }: HeaderProps) {
           {onSearchClick && (
             <button
               onClick={onSearchClick}
-              className="p-2.5 rounded-xl text-stone-600 dark:text-stone-300 hover:bg-sand-200/60 dark:hover:bg-stone-800 transition-colors flex items-center gap-2 border border-sand-200 dark:border-stone-700"
+              className="p-2.5 rounded-xl text-stone-600 dark:text-stone-300 hover:bg-rose-50 dark:hover:bg-stone-800 transition-colors flex items-center gap-2 border border-rose-100 dark:border-stone-700"
               title="Search diary entries"
               aria-label="Search diary entries"
             >
@@ -120,7 +120,7 @@ export function Header({ onSearchClick }: HeaderProps) {
           {/* Bookmarks Counter */}
           <Link
             href="/#entries-section"
-            className="relative p-2.5 rounded-xl text-stone-600 dark:text-stone-300 hover:bg-sand-200/60 dark:hover:bg-stone-800 transition-colors flex items-center justify-center border border-sand-200 dark:border-stone-700"
+            className="relative p-2.5 rounded-xl text-stone-600 dark:text-stone-300 hover:bg-rose-50 dark:hover:bg-stone-800 transition-colors flex items-center justify-center border border-rose-100 dark:border-stone-700"
             title="Saved Bookmarks"
           >
             <Bookmark className="w-4 h-4 text-terracotta-600 dark:text-terracotta-400" />
@@ -145,7 +145,7 @@ export function Header({ onSearchClick }: HeaderProps) {
           {/* Mobile menu trigger */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden p-2.5 rounded-xl text-stone-700 dark:text-stone-200 hover:bg-sand-200 dark:hover:bg-stone-800"
+            className="md:hidden p-2.5 rounded-xl text-stone-700 dark:text-stone-200 hover:bg-rose-50 dark:hover:bg-stone-800"
             aria-label="Toggle Navigation Menu"
           >
             {mobileMenuOpen ? (
@@ -159,7 +159,7 @@ export function Header({ onSearchClick }: HeaderProps) {
 
       {/* Mobile Drawer Navigation */}
       {mobileMenuOpen && (
-        <div className="md:hidden border-b border-sand-200 dark:border-stone-800 bg-sand-50 dark:bg-stone-900 px-4 py-4 space-y-2 animate-in slide-in-from-top">
+        <div className="md:hidden border-b border-rose-100 dark:border-stone-800 bg-sand-50 dark:bg-stone-900 px-4 py-4 space-y-2 animate-in slide-in-from-top">
           {navLinks.map((link) => {
             const Icon = link.icon;
             const isActive = pathname === link.href;
@@ -171,7 +171,7 @@ export function Header({ onSearchClick }: HeaderProps) {
                 className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium ${
                   isActive
                     ? "bg-terracotta-600 text-white font-bold"
-                    : "text-stone-700 dark:text-stone-300 hover:bg-sand-200/70 dark:hover:bg-stone-800"
+                    : "text-stone-700 dark:text-stone-300 hover:bg-rose-50 dark:hover:bg-stone-800"
                 }`}
               >
                 <Icon className="w-5 h-5" />

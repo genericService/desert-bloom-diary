@@ -59,25 +59,25 @@ export function EntryCard({ entry, onSelect }: EntryCardProps) {
   };
 
   return (
-    <article className="group relative bg-white dark:bg-stone-800 rounded-3xl border border-sand-200 dark:border-stone-700/80 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden">
-      {/* Top Banner image or decorative header */}
-      <div className="relative h-48 w-full bg-sand-200 dark:bg-stone-700 overflow-hidden">
+    <article className="group relative bg-white dark:bg-stone-800 rounded-3xl border border-rose-100 dark:border-stone-700/80 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden">
+      {/* Top Banner image */}
+      <div className="relative h-52 w-full bg-rose-50 dark:bg-stone-700 overflow-hidden">
         {/* Image overlay */}
         <img
           src={entry.coverImage}
           alt={entry.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-stone-900/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-stone-900/85 via-stone-900/20 to-transparent" />
 
         {/* Top Badges overlay */}
         <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
           <div className="flex items-center gap-1.5">
-            <span className="bg-stone-900/80 backdrop-blur-md text-white text-xs font-bold px-2.5 py-1 rounded-xl shadow-xs border border-white/20">
+            <span className="bg-stone-900/80 backdrop-blur-md text-white text-xs font-serif font-bold px-3 py-1 rounded-xl shadow-xs border border-white/20">
               Week {entry.weekNumber}
             </span>
             {entry.isMilestone && (
-              <span className="bg-terracotta-600/90 backdrop-blur-md text-white text-[11px] font-bold px-2 py-1 rounded-xl flex items-center gap-1">
+              <span className="bg-rose-500/90 backdrop-blur-md text-white text-[11px] font-bold px-2.5 py-1 rounded-xl flex items-center gap-1 shadow-xs">
                 <Sparkles className="w-3 h-3" />
                 Milestone
               </span>
@@ -103,12 +103,12 @@ export function EntryCard({ entry, onSelect }: EntryCardProps) {
         {/* Bottom image overlay details */}
         <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-white/90">
           <span
-            className={`px-2.5 py-0.5 rounded-full text-[11px] font-bold border ${getTrimesterBadgeColor(entry.trimester)}`}
+            className={`px-3 py-0.5 rounded-full text-[11px] font-bold backdrop-blur-md shadow-2xs border ${getTrimesterBadgeColor(entry.trimester)}`}
           >
             {getTrimesterLabel(entry.trimester)}
           </span>
-          <span className="flex items-center gap-1 text-[11px] bg-stone-900/60 px-2 py-0.5 rounded-md backdrop-blur-xs">
-            <Clock className="w-3 h-3 text-terracotta-400" />
+          <span className="flex items-center gap-1 text-[11px] bg-stone-900/70 px-2.5 py-0.5 rounded-lg backdrop-blur-xs">
+            <Clock className="w-3 h-3 text-terracotta-300" />
             {entry.readTime}
           </span>
         </div>
@@ -119,38 +119,38 @@ export function EntryCard({ entry, onSelect }: EntryCardProps) {
         <div className="space-y-3">
           {/* Publication Date */}
           <div className="flex items-center gap-2 text-xs text-stone-500 dark:text-stone-400 font-medium">
-            <Calendar className="w-3.5 h-3.5 text-terracotta-600 dark:text-terracotta-400" />
+            <Calendar className="w-3.5 h-3.5 text-rose-500 dark:text-rose-400" />
             <span>{entry.formattedDate}</span>
             <span>&bull;</span>
-            <span className="text-stone-600 dark:text-stone-300">
+            <span className="text-terracotta-700 dark:text-terracotta-300 font-serif italic">
               {entry.babySize.desertFruit}
             </span>
           </div>
 
           {/* Entry Title */}
-          <h2 className="font-serif text-xl font-bold text-stone-900 dark:text-stone-100 group-hover:text-terracotta-600 dark:group-hover:text-terracotta-400 transition-colors line-clamp-2">
+          <h2 className="font-serif text-2xl font-bold text-stone-900 dark:text-stone-100 group-hover:text-terracotta-600 dark:group-hover:text-terracotta-400 transition-colors line-clamp-2 leading-snug">
             <Link href={`/entry/${entry.id}`} onClick={() => onSelect?.(entry)}>
               {entry.title}
             </Link>
           </h2>
 
           {/* Excerpt */}
-          <p className="text-sm text-stone-600 dark:text-stone-300 line-clamp-3 leading-relaxed">
+          <p className="text-sm text-stone-600 dark:text-stone-300 line-clamp-3 leading-relaxed font-light">
             {entry.excerpt}
           </p>
         </div>
 
         {/* Highlight Metadata Badges */}
-        <div className="pt-2 space-y-3 border-t border-sand-200 dark:border-stone-700/60">
+        <div className="pt-3 space-y-3 border-t border-rose-100 dark:border-stone-700/60">
           {/* MomDoc Tempe Highlight Pill */}
-          <div className="bg-sand-50 dark:bg-stone-900/60 p-2.5 rounded-xl border border-sand-200 dark:border-stone-700 flex items-center justify-between text-xs">
-            <div className="flex items-center gap-2 text-stone-700 dark:text-stone-300">
+          <div className="bg-rose-50/60 dark:bg-stone-900/60 p-2.5 rounded-2xl border border-rose-100 dark:border-stone-700 flex items-center justify-between text-xs">
+            <div className="flex items-center gap-2 text-stone-700 dark:text-stone-300 min-w-0">
               <Heart className="w-3.5 h-3.5 text-rose-500 shrink-0 fill-current" />
               <span className="font-semibold text-stone-900 dark:text-stone-100 truncate">
                 MomDoc: {entry.momdocHighlight.title}
               </span>
             </div>
-            <span className="text-[10px] font-bold px-2 py-0.5 rounded-md bg-sage-100 dark:bg-sage-950 text-sage-800 dark:text-sage-300 shrink-0">
+            <span className="text-[10px] font-bold px-2.5 py-0.5 rounded-lg bg-sage-100 dark:bg-sage-950 text-sage-800 dark:text-sage-300 shrink-0">
               {entry.momdocHighlight.careType}
             </span>
           </div>
@@ -158,8 +158,10 @@ export function EntryCard({ entry, onSelect }: EntryCardProps) {
           {/* Tempe Spot & Tags */}
           <div className="flex items-center justify-between text-xs text-stone-500 dark:text-stone-400">
             <div className="flex items-center gap-1.5 truncate max-w-[200px]">
-              <MapPin className="w-3.5 h-3.5 text-terracotta-500 shrink-0" />
-              <span className="truncate">{entry.tempeSpotlight.location}</span>
+              <MapPin className="w-3.5 h-3.5 text-rose-500 shrink-0" />
+              <span className="truncate italic">
+                {entry.tempeSpotlight.location}
+              </span>
             </div>
 
             <Link

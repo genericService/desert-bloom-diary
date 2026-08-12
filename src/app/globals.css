@@ -1,76 +1,92 @@
 @import "tailwindcss";
 
 @theme {
-  --color-terracotta-50: #fdf8f6;
-  --color-terracotta-100: #fbeee9;
-  --color-terracotta-200: #f7dacd;
-  --color-terracotta-300: #efb9a3;
-  --color-terracotta-400: #e58f71;
-  --color-terracotta-500: #dc6a45;
-  --color-terracotta-600: #c85a32;
-  --color-terracotta-700: #a44525;
-  --color-terracotta-800: #883b23;
-  --color-terracotta-900: #713421;
-  --color-terracotta-950: #3d190f;
+  --font-serif: var(--font-serif), "Cormorant Garamond", Georgia, serif;
+  --font-sans: var(--font-sans), "Plus Jakarta Sans", system-ui, sans-serif;
 
-  --color-sage-50: #f4f7f5;
-  --color-sage-100: #e5ede7;
-  --color-sage-200: #cbdcd0;
-  --color-sage-300: #a5c3b0;
-  --color-sage-400: #78a388;
-  --color-sage-500: #578769;
-  --color-sage-600: #426c52;
-  --color-sage-700: #365743;
-  --color-sage-800: #2d4637;
-  --color-sage-900: #273b30;
-  --color-sage-950: #14201a;
+  /* Feminine Sonoran Rose & Terracotta Palette */
+  --color-rose-50: #fff6f6;
+  --color-rose-100: #fdeae8;
+  --color-rose-200: #fbd6d3;
+  --color-rose-300: #f6b5b0;
+  --color-rose-400: #ee8a83;
+  --color-rose-500: #e2635a;
+  --color-rose-600: #cd473e;
+  --color-rose-700: #ac3830;
+  --color-rose-800: #8e312b;
+  --color-rose-900: #762d29;
+  --color-rose-950: #401412;
 
-  --color-sand-50: #faf7f2;
-  --color-sand-100: #f3ede2;
-  --color-sand-200: #e6d7c2;
-  --color-sand-300: #d5bc9d;
-  --color-sand-400: #c29d77;
-  --color-sand-500: #b4855c;
-  --color-sand-600: #a6704f;
-  --color-sand-700: #8a5742;
-  --color-sand-800: #72473a;
-  --color-sand-900: #5d3b32;
-  --color-sand-950: #331d1a;
+  --color-terracotta-50: #fff8f5;
+  --color-terracotta-100: #fdf0eb;
+  --color-terracotta-200: #f9dfd5;
+  --color-terracotta-300: #f2beaa;
+  --color-terracotta-400: #e7977a;
+  --color-terracotta-500: #d97453;
+  --color-terracotta-600: #c45b3a;
+  --color-terracotta-700: #a3462b;
+  --color-terracotta-800: #863c26;
+  --color-terracotta-900: #6f3523;
+  --color-terracotta-950: #3b190f;
+
+  --color-sage-50: #f5f8f6;
+  --color-sage-100: #e7efe9;
+  --color-sage-200: #d1ded5;
+  --color-sage-300: #acc4b4;
+  --color-sage-400: #82a48d;
+  --color-sage-500: #61866d;
+  --color-sage-600: #4b6c56;
+  --color-sage-700: #3d5746;
+  --color-sage-800: #324639;
+  --color-sage-900: #2b3a30;
+  --color-sage-950: #152019;
+
+  --color-sand-50: #fdfbf7;
+  --color-sand-100: #f8f3ea;
+  --color-sand-200: #eee3d2;
+  --color-sand-300: #e1cdb3;
+  --color-sand-400: #ceaf8f;
+  --color-sand-500: #b99370;
+  --color-sand-600: #a87f5d;
+  --color-sand-700: #8b6449;
+  --color-sand-800: #71513d;
+  --color-sand-900: #5c4233;
+  --color-sand-950: #31221a;
 }
 
 :root {
-  --background: #faf7f2;
-  --foreground: #222222;
+  --background: #fdfbf7;
+  --foreground: #2d2623;
   --card-bg: #ffffff;
-  --border-color: #e6dfd5;
+  --border-color: #f3ede2;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #141312;
-    --foreground: #f3eee8;
-    --card-bg: #1e1c1a;
-    --border-color: #38332e;
+    --background: #181514;
+    --foreground: #f6f0eb;
+    --card-bg: #231f1d;
+    --border-color: #3d3733;
   }
 }
 
 body {
   background-color: var(--background);
   color: var(--foreground);
-  font-family:
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    sans-serif;
-  line-height: 1.6;
+  font-family: var(--font-sans);
+  line-height: 1.65;
+  letter-spacing: -0.01em;
 }
 
-/* Custom scrollbar */
+h1,
+h2,
+h3,
+h4,
+.font-serif {
+  font-family: var(--font-serif);
+}
+
+/* Custom soft romantic scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -81,10 +97,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c85a32;
-  border-radius: 4px;
+  background: #e7977a;
+  border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #a44525;
+  background: #c45b3a;
 }
