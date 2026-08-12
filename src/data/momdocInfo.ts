@@ -2,12 +2,11 @@ import { MomDocClinicInfo } from "@/types";
 
 export const MOMDOC_TEMPE_INFO: MomDocClinicInfo = {
   name: "MomDoc Women's Health – Tempe",
-  tagline:
-    "Compassionate OB/GYN & Certified Nurse-Midwifery Care in Tempe, Arizona",
-  address: "2149 E Warner Rd, Suite 102",
+  tagline: "Warm, Patient-Centered OB/GYN & Midwifery Care in Tempe, Arizona",
+  address: "1634 S. Priest Dr.",
   city: "Tempe",
   state: "AZ",
-  zip: "85284",
+  zip: "85281",
   phone: "(480) 820-6657",
   website: "https://www.momdoc.com/en/locations/tempe",
   hours: [
@@ -16,19 +15,19 @@ export const MOMDOC_TEMPE_INFO: MomDocClinicInfo = {
     "Saturday – Sunday: Emergency On-Call Care Available",
   ],
   services: [
+    "Same-Day Access & Flexible Appointments",
+    'Calm "Living Room" Office Environment',
+    "Consistent Care Providers & Midwifery Options",
     "Comprehensive Prenatal & High-Risk Pregnancy Care",
-    "Certified Nurse-Midwifery (CNM) Birth Options",
     "3D/4D Ultrasound Imaging",
-    "Gestational Diabetes & Glucose Screening",
-    "Birth Plan Consultation & Hospital Coordination",
-    "Postpartum Support & Lactation Guidance",
-    "Routine Gynecological Exams & Wellness",
+    "Glucose Screening & Maternal Nutrition Guidance",
+    "Postpartum Support & Lactation Consultation",
   ],
   tempeHighlights: [
-    "Conveniently located off Warner Rd near Rural Rd in South Tempe",
-    "Dedicated team of board-certified OB/GYNs and experienced midwives",
-    "Welcoming, family-friendly environment with minimal wait times",
-    "Affiliated with top Tempe-area maternity hospitals",
-    "In-house lab and ultrasound capabilities for seamless visits",
+    "Conveniently located at 1634 S. Priest Dr. near Broadway Rd in Tempe",
+    'Calm, home-like "Living Room" atmosphere designed to reduce appointment anxiety',
+    "Consistent team of board-certified OB/GYNs and experienced midwives",
+    "Easy same-day scheduling when urgent questions arise",
+    "Affiliated with top East Valley maternity hospitals",
   ],
 };

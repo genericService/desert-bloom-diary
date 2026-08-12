@@ -50,7 +50,9 @@ export function Header({ onSearchClick }: HeaderProps) {
     { href: "/", label: "Diary Entries", icon: Calendar },
     { href: "/tracker", label: "40-Week Growth Tracker", icon: Flower2 },
     { href: "/momdoc-tempe", label: "MomDoc Tempe Care", icon: Stethoscope },
-    { href: "/kitchen-sink", label: "Design Kitchen Sink", icon: Palette },
+    { href: "/about", label: "About Maya", icon: Heart },
+    { href: "/my-care", label: "Local Resources", icon: Bookmark },
+    { href: "/kitchen-sink", label: "Kitchen Sink", icon: Palette },
   ];
 
   return (
