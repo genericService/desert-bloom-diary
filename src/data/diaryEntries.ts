@@ -391,7 +391,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 3,
     readTime: "3 min read",
-    coverImage: "/images/tempe_nursery_room.jpg",
+    coverImage: "/images/nursery_onesies_basket.jpg",
     isMilestone: true,
   },
   {
@@ -437,7 +437,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 3,
     readTime: "4 min read",
-    coverImage: "/images/kiwanis_park_tempe.jpg",
+    coverImage: "/images/college_ave_citrus_blossoms.jpg",
   },
   {
     id: "week-36",
@@ -482,7 +482,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 4,
     energyLevel: 2,
     readTime: "4 min read",
-    coverImage: "/images/alex_maya_cholla.jpg",
+    coverImage: "/images/hospital_bag_terracotta.jpg",
     isMilestone: true,
   },
   {
@@ -527,7 +527,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     moodScore: 5,
     energyLevel: 3,
     readTime: "3 min read",
-    coverImage: "/images/tempe_town_lake.jpg",
+    coverImage: "/images/palo_verde_blooms_tempe.jpg",
   },
   {
     id: "week-40-birth",

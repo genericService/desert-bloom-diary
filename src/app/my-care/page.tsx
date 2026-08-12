@@ -43,7 +43,7 @@ export default function MyCarePage() {
       description:
         "Walkable boutique shops with soft linen trousers and desert accessories for growing bumps.",
       link: "https://www.downtowntempe.com",
-      image: "/images/maya_rivera_portrait.jpg",
+      image: "/images/mill_ave_hayden.jpg",
       isPrimary: false,
     },
     {
@@ -54,7 +54,7 @@ export default function MyCarePage() {
       description:
         "Shaded courtyard gardens, quiet seating, and pregnancy reading materials.",
       link: "https://www.tempe.gov/government/community-services/tempe-public-library",
-      image: "/images/iced_ginger_tea_patio.jpg",
+      image: "/images/tempe_library_courtyard.jpg",
       isPrimary: false,
     },
   ];
