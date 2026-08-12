@@ -7,19 +7,16 @@ import {
   Stethoscope,
   MapPin,
   Phone,
-  Clock,
   ExternalLink,
   ShieldCheck,
-  Heart,
-  Calendar,
   Sparkles,
   HelpCircle,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "MomDoc Tempe OB/GYN & Midwifery Care | Desert Bloom Diary",
+  title: "MomDoc Tempe OB/GYN Care | Desert Bloom Diary",
   description:
-    "Learn about MomDoc Tempe prenatal care, Certified Nurse-Midwifery birth options, 3D ultrasounds, and maternal wellness located at 2149 E Warner Rd, Tempe, AZ.",
+    "Learn about MomDoc Tempe OB/GYN prenatal care, 3D ultrasounds, and maternal wellness located at 1634 S. Priest Dr., Tempe, AZ.",
 };
 
 export default function MomDocTempePage() {
@@ -39,21 +36,21 @@ export default function MomDocTempePage() {
     telephone: MOMDOC_TEMPE_INFO.phone,
     url: MOMDOC_TEMPE_INFO.website,
     openingHours: ["Mo-Th 08:00-17:00", "Fr 08:00-16:00"],
-    medicalSpecialty: ["Obstetric", "Gynecologic", "Midwifery"],
+    medicalSpecialty: ["Obstetric", "Gynecologic"],
   };
 
   const faqs = [
     {
       q: "Where is MomDoc Tempe located?",
-      a: "MomDoc Tempe is located at 2149 E Warner Rd, Suite 102, Tempe, AZ 85284, near the intersection of Warner Road and Rural Road in South Tempe.",
+      a: "MomDoc Tempe is located at 1634 S. Priest Dr., Tempe, AZ 85281, near the intersection of Priest Drive and Broadway Road in Tempe.",
     },
     {
-      q: "Does MomDoc Tempe offer Certified Nurse-Midwifery (CNM) care?",
-      a: "Yes. MomDoc Tempe features dedicated Certified Nurse-Midwives who offer compassionate, low-intervention prenatal care and labor support, seamlessly collaborating with board-certified OB/GYN physicians.",
+      q: "What care model does MomDoc Tempe offer?",
+      a: "MomDoc Tempe features dedicated board-certified OB/GYN physicians and women’s health professionals who offer compassionate, comprehensive prenatal care, ultrasound scans, and birth consultations.",
     },
     {
       q: "What prenatal services are available on site?",
-      a: "Services include routine prenatal visits, 3D/4D fetal ultrasound scans, gestational glucose screening, high-risk pregnancy management, blood pressure monitoring, and postpartum follow-up checkups.",
+      a: "Services include routine prenatal checkups, 3D/4D fetal ultrasound scans, gestational glucose screening, high-risk pregnancy management, blood pressure monitoring, and postpartum follow-up checkups.",
     },
     {
       q: "How do I schedule an appointment at MomDoc Tempe?",
@@ -75,15 +72,15 @@ export default function MomDocTempePage() {
           {/* Hero Header */}
           <div className="bg-gradient-to-br from-sage-900 via-stone-900 to-stone-900 text-white rounded-3xl p-8 sm:p-12 border border-sage-800 shadow-2xl space-y-6 relative overflow-hidden">
             <div className="max-w-3xl space-y-4">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sage-800 text-sage-300 text-xs font-bold uppercase tracking-wider border border-sage-700">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage-800 text-sage-300 text-xs font-semibold uppercase tracking-wider border border-sage-700">
                 <Stethoscope className="w-4 h-4 text-sage-400" />
-                <span>Tempe OB/GYN & Midwifery Clinic</span>
+                <span>Tempe OB/GYN Clinic</span>
               </div>
               <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight">
                 {MOMDOC_TEMPE_INFO.name}
               </h1>
               <p className="text-base sm:text-lg text-stone-300">
-                {MOMDOC_TEMPE_INFO.tagline}. Maya Rivera trusted care partner
+                {MOMDOC_TEMPE_INFO.tagline}. Maya Rivera’s trusted care partner
                 throughout her 40-week Tempe pregnancy journey.
               </p>
               <div className="pt-2 flex flex-wrap gap-4">
@@ -116,7 +113,7 @@ export default function MomDocTempePage() {
                 <span>Clinic Location</span>
               </h2>
 
-              <div className="space-y-4 text-sm text-stone-700 dark:text-stone-300">
+              <div className="space-y-4 text-sm text-stone-700 dark:text-stone-300 font-light">
                 <div>
                   <span className="text-xs font-bold uppercase tracking-wider text-stone-400 block mb-1">
                     Street Address
@@ -177,10 +174,10 @@ export default function MomDocTempePage() {
               </div>
 
               <div className="pt-4 border-t border-sand-200 dark:border-stone-700 space-y-3">
-                <h3 className="text-sm font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400">
+                <h3 className="text-xs font-bold uppercase tracking-wider text-stone-500 dark:text-stone-400">
                   Why Tempe Mothers Choose MomDoc
                 </h3>
-                <ul className="space-y-2 text-xs text-stone-600 dark:text-stone-300">
+                <ul className="space-y-2 text-xs text-stone-600 dark:text-stone-300 font-light">
                   {MOMDOC_TEMPE_INFO.tempeHighlights.map((h, i) => (
                     <li key={i} className="flex items-start gap-2">
                       <Sparkles className="w-3.5 h-3.5 text-terracotta-500 shrink-0 mt-0.5" />
@@ -210,7 +207,7 @@ export default function MomDocTempePage() {
                   <h3 className="font-bold text-stone-900 dark:text-stone-100 text-sm">
                     {faq.q}
                   </h3>
-                  <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed">
+                  <p className="text-xs text-stone-600 dark:text-stone-300 leading-relaxed font-light">
                     {faq.a}
                   </p>
                 </div>

@@ -15,13 +15,13 @@
 | **W5** | Aug 18, 2025 | Two Pink Lines | Discovery test during 109° heatwave; smart thermostat war (74° vs 77°); Cholla (2022 Salt River rescue) nudges door open & steals laundry sock; 115° steering wheel burn driving to pharmacy | [`maya_rivera_portrait.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/maya_rivera_portrait.jpg) |
 | **W7** | Sep 2, 2025 | Nausea Has Arrived | Afternoon nausea peaks at 3 PM settled with iced ginger tea on patio; Alex manual lever espresso shot glass left on drafting table near watercolor palette | [`iced_ginger_tea_patio.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/iced_ginger_tea_patio.jpg) |
 | **W9** | Sep 16, 2025 | Living Room at Priest Dr | First ultrasound scan at MomDoc Tempe (165 BPM heartbeat); Alex morning Papago Park trail ride; late-night Mesa taco truck birria celebration | [`ultrasound_prints_car.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/ultrasound_prints_car.jpg) |
-| **W12** | Oct 7, 2025 | Trimester One Winds Down | Crisp October Kiwanis Park lake picnic under pecan trees; plein air botanical watercolor sketching; Mesa thrift store vintage pottery hunting | [`kiwanis_park_tempe.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/kiwanis_park_tempe.jpg) |
+| **W12** | Oct 7, 2025 | Trimester One Winds Down | Crisp October Kiwanis Park lake picnic under pecan trees; plein air botanical watercolor sketching; Mesa thrift store vintage pottery hunting; 12-week OB doctor checkup | [`kiwanis_park_tempe.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/kiwanis_park_tempe.jpg) |
 | **W15** | Oct 28, 2025 | Design Deadlines & Linen Pants | Trimester 2 energy boost; client scope creep before date night; indie matinee at Valley Art Theater on Mill Ave; Cholla rests chin on bump | [`mill_ave_hayden.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/mill_ave_hayden.jpg) |
 | **W18** | Nov 18, 2025 | Relief of Same-Day Care | Round ligament pain panic; same-day visit at MomDoc Tempe Priest Dr; balancing design deadlines with Alex late-night PagerDuty engineering alerts | [`momdoc_tempe_lobby.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/momdoc_tempe_lobby.jpg) |
 | **W20** | Dec 2, 2025 | Halfway Anatomy Scan & Kicks | 20-week anatomy scan; first kicks felt on couch; Tempe Town Lake pedestrian bridge sunset walk; Cholla hoarding clean socks in nursery corner | [`tempe_town_lake.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/tempe_town_lake.jpg) |
 | **W24** | Jan 2, 2026 | Sage Green Paint & Glucose | Welcome 2026; 1-hr glucose test; assembling IKEA nursery drawers without instructions; painting sage green walls & setting thrift pottery | [`tempe_nursery_room.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/tempe_nursery_room.jpg) |
 | **W28** | Jan 30, 2026 | Welcome to Trimester Three | Passed glucose test; bi-weekly MomDoc schedule; folding onesies; iced ginger-lemon tea; brain fog from Alex 2 AM cloud deployment PagerDuty call | [`nursery_onesies_basket.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/nursery_onesies_basket.jpg) |
-| **W32** | Feb 27, 2026 | Citrus Blossoms & Birth Plan | College Ave Seville orange blossom walks; midwife birth plan walkthrough; Alex decaf pour-over brewing & hospital route planning | [`college_ave_citrus_blossoms.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/college_ave_citrus_blossoms.jpg) |
+| **W32** | Feb 27, 2026 | Citrus Blossoms & Birth Plan | College Ave Seville orange blossom walks; OB doctor birth plan walkthrough; Alex decaf pour-over brewing & hospital route planning | [`college_ave_citrus_blossoms.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/college_ave_citrus_blossoms.jpg) |
 | **W36** | Mar 27, 2026 | Weekly Checkups & Hospital Bags | Confirmed vertex position; packing terracotta hospital bag; Cholla hiding stolen baby sock; Alex wrapping up on-call rotation swap | [`hospital_bag_terracotta.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/hospital_bag_terracotta.jpg) |
 | **W38** | Apr 10, 2026 | Wildflowers & Palo Verde Gold | Palo verde spring blooms; patio botanical watercolor painting; 1 cm dilation & 50% effacement; quiet Kiwanis Park lake strolls | [`palo_verde_blooms_tempe.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/palo_verde_blooms_tempe.jpg) |
 | **W40** | Apr 22, 2026 | Mateo Sun Rivera Arrived | Contractions begin 2:15 AM; Alex timing contractions & offering ginger tea sips; born 11:42 AM weighing 7 lbs 11 oz | [`newborn_mateo_swaddle.jpg`](file:///home/matthias/github/desert-bloom-diary/public/images/newborn_mateo_swaddle.jpg) |
@@ -51,7 +51,7 @@ graph TD
 ## 3. Mateo Sun Rivera Birth Story Lore
 
 * **Labor Commencement**: Contractions start at 2:15 AM on April 22, 2026 (exact due date). Alex times contractions at 5-minute intervals under warm lamp light while Cholla watches quietly.
-* **Arrival at Maternity Suite**: MomDoc Tempe Certified Nurse-Midwives meet Maya and Alex with quiet encouragement, supporting low-intervention birth preferences (dim lighting, freedom of movement, delayed cord clamping).
+* **Arrival at Maternity Suite**: MomDoc Tempe OB physician team meets Maya and Alex with quiet encouragement, supporting low-intervention birth preferences (dim lighting, freedom of movement, delayed cord clamping).
 * **Delivery**: At 11:42 AM on April 22, 2026, Mateo Sun Rivera is delivered safely, weighing 7 lbs 11 oz and measuring 20.2 inches long. Healthy APGAR scores of 9 & 9, immediate skin-to-skin contact.
 
 ---
@@ -80,7 +80,7 @@ graph TD
 
 ### Week 12: Trimester One Wrap & Autumn Outings
 * **Date**: October 7, 2025
-* **Medical / Milestone**: 12-week midwife checkup; trimester one conclusion.
+* **Medical / Milestone**: 12-week OB doctor checkup; trimester one conclusion.
 * **Tempe Date Spots**: Crisp October picnic at Kiwanis Park lake under pecan shade trees.
 * **Maya's Hobbies**: Maya packing her spiral-bound watercolor journal for plein air botanical sketching of saguaro ribs and desert flora. Spending Saturday morning vintage pottery hunting at East Valley thrift shops in Mesa and Chandler.
 
@@ -111,14 +111,14 @@ graph TD
 
 ### Week 28: Third Trimester & Brain Fog
 * **Date**: January 30, 2026
-* **Medical / Milestone**: Passing glucose test; moving to bi-weekly MomDoc midwife visits.
+* **Medical / Milestone**: Passing glucose test; moving to bi-weekly MomDoc OB doctor visits.
 * **Hobbies & Daily Life**: Iced ginger-lemon tea sipping while folding sage green onesies.
 * **Domestic & Voice Lore**: Self-conscious journaling apologies about pregnancy brain fog after Alex suffers three middle-of-the-night PagerDuty deployment pages.
 * **Cholla Lore**: Cholla nudging open bathroom doors and resting her chin on Maya's 28-week bump.
 
 ### Week 32: Citrus Blossoms & Birth Planning
 * **Date**: February 27, 2026
-* **Medical / Milestone**: Birth plan walkthrough with MomDoc midwives.
+* **Medical / Milestone**: Birth plan walkthrough with MomDoc OB doctor.
 * **Tempe Date Spots**: Walking along College Ave enjoying the fragrance of Seville orange citrus blossoms.
 * **Alex's Hobbies**: Alex perfecting decaf pour-over brewing while mapping hospital routes and smart home heating schedules.
 

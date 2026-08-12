@@ -1,13 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import {
-  Flower2,
-  MapPin,
-  Phone,
-  ExternalLink,
-  Heart,
-  Sparkles,
-} from "lucide-react";
+import { Flower2, MapPin, Phone, ExternalLink, Heart } from "lucide-react";
 import { MOMDOC_TEMPE_INFO } from "@/data/momdocInfo";
 
 export function Footer() {
@@ -63,7 +56,7 @@ export function Footer() {
                   href="/momdoc-tempe"
                   className="hover:text-rose-300 transition-colors flex items-center gap-2"
                 >
-                  <span>Our MomDoc Care Story</span>
+                  <span>Our Doctor & Care Team</span>
                 </Link>
               </li>
               <li>
@@ -96,7 +89,7 @@ export function Footer() {
           {/* Col 3: MomDoc Tempe Care Spotlight */}
           <div className="space-y-3">
             <h3 className="text-xs font-serif font-bold uppercase tracking-wider text-rose-300/80">
-              Our Tempe Midwifery Team
+              Our Tempe Physician Team
             </h3>
             <div className="bg-stone-900/90 p-4 rounded-2xl border border-stone-800 space-y-2.5 text-xs text-stone-300">
               <p className="font-semibold text-white flex items-center gap-2 font-serif text-sm">
@@ -173,8 +166,7 @@ export function Footer() {
           </p>
           <p className="max-w-md text-stone-400 text-center md:text-right font-light">
             Personal family journal and local Tempe prenatal resource guide. For
-            personal healthcare, always consult your physician or midwife team
-            at MomDoc.
+            personal healthcare, always consult your physician at MomDoc.
           </p>
         </div>
       </div>

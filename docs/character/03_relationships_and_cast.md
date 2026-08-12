@@ -62,7 +62,7 @@
 * **Role in Story**:  
   - Represents maternal heritage and family connection.
   - Brings over homemade chicken broth and lemons during Week 7 nausea.
-  - Recommends MomDoc Tempe for OB/GYN and midwifery care.
+  - Recommends MomDoc Tempe for OB/GYN prenatal care.
   - Helps take care of Cholla when Maya and Alex head to the maternity suite for delivery.
 
 ---
@@ -70,13 +70,13 @@
 ## 5. MomDoc Tempe Care Team (`1634 S. Priest Dr., Tempe, AZ 85281`)
 
 * **Clinic Environment**: "Living Room" waiting lobby designed with soft armchairs, warm oak wood shelving, potted succulents, and natural sunlight.
-* **Care Model**: Collaborative OB/GYN physicians and Certified Nurse-Midwives providing low-intervention, patient-centered care.
+* **Care Model**: Collaborative OB/GYN physicians and women's healthcare team providing low-intervention, patient-centered care.
 * **Key Interactions in Story**:
   - **Week 5**: Receptionist provides immediate intake scheduling and calm prenatal advice.
   - **Week 9**: Ultrasound technician and physician perform first 9-week ultrasound scan, confirming 165 BPM heartbeat.
-  - **Week 12 & 32**: Certified Nurse-Midwives lead low-intervention birth plan walkthroughs.
+  - **Week 12 & 32**: OB/GYN physicians lead prenatal checkups and birth plan walkthroughs.
   - **Week 18**: Provides same-day urgent access for pelvic pain, diagnosing round ligament stretch and giving immediate peace of mind.
-  - **Week 40**: Certified midwifery team delivers baby Mateo Sun Rivera with immediate skin-to-skin contact.
+  - **Week 40**: OB physician team delivers baby Mateo Sun Rivera with immediate skin-to-skin contact.
 
 ---
 

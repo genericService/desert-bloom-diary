@@ -60,8 +60,8 @@ Dispatch Milestone 2 / Final Verification Team, verify src/data/diaryEntries.ts 
 | worker_m2 | teamwork_preview_worker | Update src/data/diaryEntries.ts | completed | e1732b75-6abb-4600-a1b6-37d146d0cdff |
 | reviewer_m2_1 | teamwork_preview_reviewer | Review diary entries & lore | completed (APPROVE) | 7e8dfc1f-b5d5-4533-9239-4ced72f5e3b9 |
 | reviewer_m2_2 | teamwork_preview_reviewer | Review em dashes, therapy talk & build | completed (APPROVE) | 1e8e8349-5520-4d54-9c78-7c573971a299 |
-| challenger_m2_1 | teamwork_preview_challenger | Challenge lore & constraint integrity | in-progress | 724da2bd-4cf3-4336-bdd5-83a71ec0b77f |
-| challenger_m2_2 | teamwork_preview_challenger | Challenge build stability & data types | in-progress | cce0fb7f-e6a6-428a-b86b-3c6e58fb01c0 |
+| challenger_m2_1 | teamwork_preview_challenger | Challenge lore & constraint integrity | completed (APPROVE) | 724da2bd-4cf3-4336-bdd5-83a71ec0b77f |
+| challenger_m2_2 | teamwork_preview_challenger | Challenge build stability & data types | completed (APPROVE) | cce0fb7f-e6a6-428a-b86b-3c6e58fb01c0 |
 | auditor_m2_1 | teamwork_preview_auditor | Forensic integrity audit | completed (CLEAN) | cc43b5e6-4e9f-46dd-818a-16af76a98199 |
 
 ## Succession Status

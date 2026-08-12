@@ -24,8 +24,9 @@
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
 | M1 | Docs Lore Expansion | Expand character docs in `docs/character/` (01, 02, 03, 04) | Survey | DONE |
-| M2 | Diary Entries Web Integration | Update `src/data/diaryEntries.ts` with new lore | M1 | IN_PROGRESS |
-| M3 | Gate & Build Verification | Review, challenge, audit, and run `pnpm build` | M2 | PLANNED |
+| M2 | Diary Entries Web Integration | Update `src/data/diaryEntries.ts` with new lore | M1 | DONE |
+| M3 | Gate & Build Verification | Review, challenge, audit, and run `pnpm build` | M2 | DONE |
+
 
 ## Code Layout
 - `docs/character/01_maya_rivera_biography.md`

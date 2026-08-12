@@ -21,7 +21,7 @@ export function MomDocCareWidget() {
         <div className="space-y-2">
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-sage-900/80 text-sage-300 text-xs font-bold uppercase tracking-wider border border-sage-800">
             <Stethoscope className="w-3.5 h-3.5 text-sage-400" />
-            <span>Local Prenatal & Midwifery Care</span>
+            <span>Local Prenatal & OB/GYN Care</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold tracking-tight text-white">
             {MOMDOC_TEMPE_INFO.name}
@@ -123,10 +123,10 @@ export function MomDocCareWidget() {
                 Maya Rivera’s Patient Experience
               </p>
               <p className="leading-relaxed font-light italic">
-                "The nurse midwives and physicians at MomDoc Tempe provided
-                steady, trauma-informed care throughout my entire 40 weeks. They
-                listened carefully to my birth preferences and ensured a smooth,
-                safe delivery for baby Mateo."
+                "The OB physicians and nurses at MomDoc Tempe provided steady,
+                compassionate care throughout my entire 40 weeks. They listened
+                carefully to my birth preferences and ensured a smooth, safe
+                delivery for baby Mateo."
               </p>
             </div>
           </div>

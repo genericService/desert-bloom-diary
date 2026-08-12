@@ -24,7 +24,7 @@ export interface DiaryEntry {
     careType:
       | "Ultrasound"
       | "OB Checkup"
-      | "Midwife Visit"
+      | "OB Consultation"
       | "Glucose Test"
       | "Birth Plan"
       | "Postpartum Check";

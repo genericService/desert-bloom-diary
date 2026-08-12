@@ -60,7 +60,8 @@ export const DESERT_GROWTH_MILESTONES: DesertMilestone[] = [
     weightGrams: 43.0,
     weightText: "1.5 oz",
     keyFeature: "Facial muscles practice expressions; kidney function starts.",
-    momdocMilestone: "Second trimester transition visit & midwife check-in.",
+    momdocMilestone:
+      "Second trimester transition visit & OB physician checkup.",
   },
   {
     week: 16,
@@ -142,7 +143,7 @@ export const DESERT_GROWTH_MILESTONES: DesertMilestone[] = [
     weightGrams: 1300.0,
     weightText: "2.9 lbs",
     keyFeature: "Bone marrow produces red blood cells; baby gains body fat.",
-    momdocMilestone: "Birth plan review & midwife birth consultation.",
+    momdocMilestone: "Birth plan review & OB doctor birth consultation.",
   },
   {
     week: 32,
