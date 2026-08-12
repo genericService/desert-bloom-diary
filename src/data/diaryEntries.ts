@@ -219,6 +219,48 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
       "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=1200&q=80",
   },
   {
+    id: "week-18",
+    weekNumber: 18,
+    trimester: 2,
+    date: "2025-11-18",
+    formattedDate: "November 18, 2025",
+    title: "A Sudden Twinge and the Relief of Same-Day Care",
+    excerpt:
+      "Experiencing a sharp pelvic twinge on Tuesday afternoon led to a panic, but MomDoc Tempe got me in same-day for instant peace of mind.",
+    content: [
+      "Yesterday afternoon I was sitting at my drafting table working on a logo layout when I stood up quickly to grab water and felt a sudden, sharp pulling pain across my lower right side. As a first-time mom, my mind immediately raced to worst-case scenarios.",
+      'I nervously called MomDoc Tempe on Priest Drive, fully expecting to be told to wait a few days or go to urgent care. Instead, the receptionist said, "Why don\'t you come right in at 3:15 PM today so we can take a look?" Having that same-day access was an absolute godsend.',
+      "When I arrived, walking into the quiet Living Room lobby immediately helped lower my racing pulse. The provider checked my belly, placed the Doppler wand on my stomach, and within five seconds we heard baby's heartbeat chugging along strong at 155 BPM. She gently explained that it was a textbook round ligament stretch as my uterus expands. I walked out of the clinic taking a huge sigh of relief.",
+      "xo, Maya",
+    ],
+    tags: ["Second Trimester", "Same-Day Care", "MomDoc Care", "Peace of Mind"],
+    symptoms: ["Round Ligament Pain", "Sudden Anxiety", "Reassurance"],
+    babySize: {
+      name: "Sweet Pomegranate",
+      desertFruit: "Sweet Pomegranate",
+      length: "5.6 in",
+      weight: "6.7 oz",
+      milestone: "First flutters felt; myelin sheath forms on nerves.",
+    },
+    momdocHighlight: {
+      title: "Same-Day Urgent Checkup",
+      summary:
+        "Same-day appointment at MomDoc Tempe on Priest Dr. Fetal Doppler confirmed strong 155 BPM heartbeat and diagnosed round ligament stretch.",
+      careType: "OB Checkup",
+    },
+    tempeSpotlight: {
+      location: "MomDoc Tempe Office on S. Priest Dr.",
+      description:
+        "Same-day appointment availability and peaceful Living Room environment.",
+    },
+    moodScore: 5,
+    energyLevel: 4,
+    readTime: "4 min read",
+    coverImage:
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1200&q=80",
+    isMilestone: true,
+  },
+  {
     id: "week-20",
     weekNumber: 20,
     trimester: 2,
