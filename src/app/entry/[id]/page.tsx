@@ -6,17 +6,16 @@ import { DIARY_ENTRIES } from "@/data/diaryEntries";
 import { MOMDOC_TEMPE_INFO } from "@/data/momdocInfo";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { CommentSection } from "@/components/CommentSection";
 import { getTrimesterBadgeColor, getTrimesterLabel } from "@/lib/utils";
 import {
   Calendar,
   Clock,
   MapPin,
-  Heart,
   ArrowLeft,
   ChevronLeft,
   ChevronRight,
   Sparkles,
-  Share2,
   Stethoscope,
   Smile,
   Zap,
@@ -137,7 +136,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
           {/* Back Navigation Bar */}
           <div className="flex items-center justify-between">
             <Link
-              href="/#entries-section"
+              href="/"
               className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-white dark:bg-stone-800 border border-sand-200 dark:border-stone-700 text-xs font-bold text-stone-700 dark:text-stone-300 hover:text-terracotta-600 transition-all shadow-2xs"
             >
               <ArrowLeft className="w-4 h-4" />
@@ -206,15 +205,17 @@ export default async function EntryPage({ params }: EntryPageProps) {
           {/* Main Layout Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
             {/* Left Content Column */}
-            <div className="lg:col-span-8 space-y-6 text-stone-800 dark:text-stone-200 text-base leading-relaxed">
-              {entry.content.map((paragraph, idx) => (
-                <p
-                  key={idx}
-                  className="first-letter:text-3xl first-letter:font-serif first-letter:font-bold first-letter:text-terracotta-600 first-letter:mr-1"
-                >
-                  {paragraph}
-                </p>
-              ))}
+            <div className="lg:col-span-8 space-y-8 text-stone-800 dark:text-stone-200 text-base leading-relaxed">
+              <div className="space-y-6">
+                {entry.content.map((paragraph, idx) => (
+                  <p
+                    key={idx}
+                    className="first-letter:text-3xl first-letter:font-serif first-letter:font-bold first-letter:text-terracotta-600 first-letter:mr-1"
+                  >
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
 
               {/* Tags */}
               <div className="pt-6 border-t border-sand-200 dark:border-stone-800 flex flex-wrap gap-2">
@@ -226,6 +227,11 @@ export default async function EntryPage({ params }: EntryPageProps) {
                     #{tag}
                   </span>
                 ))}
+              </div>
+
+              {/* Reader Comment Notes (Classic Personal Blog Feature) */}
+              <div className="pt-8">
+                <CommentSection />
               </div>
             </div>
 
@@ -246,7 +252,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
                   <p>
                     <strong>Weight:</strong> {entry.babySize.weight}
                   </p>
-                  <p className="pt-1 text-stone-500">
+                  <p className="pt-1 text-stone-500 font-light">
                     {entry.babySize.milestone}
                   </p>
                 </div>
@@ -261,7 +267,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
                 <h4 className="font-bold text-stone-900 dark:text-white text-sm">
                   {entry.momdocHighlight.title}
                 </h4>
-                <p className="text-xs text-sage-800 dark:text-sage-300 leading-relaxed">
+                <p className="text-xs text-sage-800 dark:text-sage-300 leading-relaxed font-light">
                   {entry.momdocHighlight.summary}
                 </p>
                 <a
@@ -284,7 +290,7 @@ export default async function EntryPage({ params }: EntryPageProps) {
                 <p className="font-bold text-stone-900 dark:text-white text-sm">
                   {entry.tempeSpotlight.location}
                 </p>
-                <p className="text-xs text-stone-600 dark:text-stone-300">
+                <p className="text-xs text-stone-600 dark:text-stone-300 font-light">
                   {entry.tempeSpotlight.description}
                 </p>
               </div>
