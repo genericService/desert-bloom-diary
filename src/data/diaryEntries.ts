@@ -180,7 +180,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
       "Apologies for the pause in posts! Freelance client deadlines kept me at my desk, but week 15 brought a great energy boost.",
     content: [
       "Life got busy over the past three weeks! As a freelance designer, fall is always my rush season, and I was pulling long hours finishing branding projects for two local Tempe clients.",
-      "The good news is that the second trimester energy boost is 100 percent real. Over the weekend, Alex and I took a walk along Mill Avenue and stopped into a local maternity shop. I bought my very first pair of high-waisted linen trousers that actually stretch over my tiny bump without pinching.",
+      "The good news is that the second trimester energy boost is 100 percent real. Over the weekend, Alex and I took a walk along Mill Avenue near the Hayden Flour Mill landmark and stopped into a local maternity shop. I bought my very first pair of high-waisted linen trousers that actually stretch over my tiny bump without pinching.",
       "Cholla has taken to resting her chin directly on my stomach whenever I work at my desk. Baby is now the size of an apple, and I am feeling great.",
       "xo, Maya",
     ],
@@ -205,13 +205,14 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
       careType: "OB Checkup",
     },
     tempeSpotlight: {
-      location: "Mill Avenue District, Tempe",
-      description: "Local boutique shopping and warm autumn sunshine.",
+      location: "Mill Avenue Historic District, Tempe",
+      description:
+        "Local boutique shopping near the historic Hayden Flour Mill in autumn sunshine.",
     },
     moodScore: 4,
     energyLevel: 5,
     readTime: "3 min read",
-    coverImage: "/images/maya_rivera_portrait.jpg",
+    coverImage: "/images/mill_ave_hayden.jpg",
   },
   {
     id: "week-18",
@@ -266,7 +267,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     content: [
       "We are officially halfway to meeting our baby: 20 weeks pregnant today!",
       "We spent Tuesday morning at MomDoc Tempe for our 20-week anatomy scan. The technician walked us through every detail on screen: four clear heart chambers, healthy brain structures, spine, kidneys, and tiny feet. Everything measured right on schedule.",
-      "Last night while watching a movie on the couch, I felt three distinct little thumps from inside. I grabbed Alex hand and placed it on my stomach. Two seconds later, baby kicked right against his palm! He looked at me with tears in his eyes, and even Cholla trotted over to see what was happening.",
+      "Last night while taking a evening walk near Tempe Town Lake, we watched the sunset over the water. Later, while relaxing on the couch, I felt three distinct little thumps from inside. I grabbed Alex hand and placed it on my stomach. Two seconds later, baby kicked right against his palm! He looked at me with tears in his eyes, and even Cholla trotted over to see what was happening.",
       "xo, Maya",
     ],
     tags: [
@@ -291,13 +292,14 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
       careType: "Ultrasound",
     },
     tempeSpotlight: {
-      location: "Tempe Town Lake Pedestrian Bridge",
-      description: "Sunset stroll celebrating our 20-week milestone.",
+      location: "Tempe Town Lake Bridge",
+      description:
+        "Sunset stroll celebrating our 20-week milestone over the water.",
     },
     moodScore: 5,
     energyLevel: 4,
     readTime: "4 min read",
-    coverImage: "/images/alex_maya_cholla.jpg",
+    coverImage: "/images/tempe_town_lake.jpg",
     isMilestone: true,
   },
   {
@@ -495,7 +497,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     content: [
       "Spring in the desert is stunning. Yellow palo verde blossoms cover the walkways, and purple bougainvillea drapes over every wall in our neighborhood.",
       "At my 38-week visit at MomDoc Tempe, my blood pressure was textbook 114/72. The provider performed a gentle cervical exam showing 1 cm dilation and 50 percent effacement.",
-      "I am taking slow walks near Tempe Town Lake, sipping red raspberry leaf tea, and practicing deep breathing. We feel calm, peaceful, and ready whenever baby decides it is time.",
+      "I am taking slow walks near Tempe Town Lake, watching the water ripple under the morning sun, sipping red raspberry leaf tea, and practicing deep breathing. We feel calm, peaceful, and ready whenever baby decides it is time.",
       "xo, Maya",
     ],
     tags: [
@@ -519,12 +521,13 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     },
     tempeSpotlight: {
       location: "Tempe Town Lake Marina",
-      description: "Morning breeze amidst blooming yellow palo verde trees.",
+      description:
+        "Morning breeze amidst blooming yellow palo verde trees along Tempe Town Lake.",
     },
     moodScore: 5,
     energyLevel: 3,
     readTime: "3 min read",
-    coverImage: "/images/kiwanis_park_tempe.jpg",
+    coverImage: "/images/tempe_town_lake.jpg",
   },
   {
     id: "week-40-birth",
