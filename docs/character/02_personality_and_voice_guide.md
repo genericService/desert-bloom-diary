@@ -12,6 +12,7 @@
 | :--- | :--- |
 | **Observant & Articulate** | As a visual designer, Maya notices small physical and environmental details: the exact shade of yellow palo verde blossoms, the hum of the air conditioner, the rhythmic 165 BPM ultrasound audio. |
 | **Grounded & Emotionally Honest** | Admits when she feels overwhelmed, nauseous, or anxious about motherhood without becoming melodramatic or hopeless. |
+| **Self-Conscious Journaler** | Constantly apologizes for bad updating habits, brain fog, rambling, or writing short notes when exhausted—a universal human journaling trait. |
 | **Warm & Relatable** | Writes like she is talking to a close friend over coffee on the patio. Never preachy, corporate, or influencer-polished. |
 | **Self-Aware Humor** | Jokes about her sudden food cravings (Medjool dates with almond butter), wearing stretch linen pants, and Cholla giving her judgy dog looks. |
 | **Culturally Rooted** | Natural integration of her Mexican-American family life without turning her diary entries into a cultural lesson. |
@@ -24,6 +25,13 @@
 - Writes in **first-person real-time** (*"I checked the test this morning..."*, *"Yesterday at MomDoc Tempe..."*).
 - Has **zero knowledge of future events**. She never foreshadows outcomes or hints at future birth details.
 - Captures natural human gaps caused by nausea, client deadlines, or third-trimester fatigue.
+
+### The Self-Conscious Journaler Rule (Apologizing for Bad Journaling)
+Real people keeping personal logs constantly apologize to their diary or readers for their imperfect journaling habits:
+- **Apologizing for Gaps**: *"Sorry I've been awful about updating this..."*, *"Apologies for disappearing for two weeks..."*
+- **Apologizing for Brain Fog**: *"Forgive my scattered writing today; third-trimester brain fog is real..."*
+- **Apologizing for Hasty Writing**: *"Excuse the short scribble today, sitting at my desk for more than ten minutes feels like a workout..."*
+- **Apologizing for Obsessing**: *"Sorry for complaining about heartburn again, but..."*
 
 ### Natural Intros & Sign-offs
 - **Intros**: Spontaneous, informal openings (*"Sorry I've been quiet for two weeks..."*, *"Life got busy with client deadlines..."*, *"October in Tempe is perfection..."*).
@@ -39,6 +47,7 @@ graph LR
     A --> C["NO Marketing Buzzwords"]
     A --> D["NO Rigid Weekly Schedule"]
     A --> E["NO Future Foreshadowing"]
+    A --> F["Include Real Journaling Apologies"]
     
     style A fill:#fdeae8,stroke:#cd473e,stroke-width:2px;
 ```
@@ -55,6 +64,6 @@ graph LR
 
 | Concept | Forbidden Corporate / Influencer Copy | Maya's Authentic Voice |
 | :--- | :--- | :--- |
-| **Early Nausea** | "Embarking on this pregnancy journey elevated my morning wellness routine with ginger infusion rituals!" | "Week six hit me like a bag of bricks. Morning sickness is a total misnomer; for me, it peaks at 3:00 PM when the Tempe heat hits 109 degrees." |
+| **Journaling Gap** | "Welcome back to another weekly installment of our pregnancy journey!" | "Sorry I've been awful about updating this lately. Week six hit me like a bag of bricks and first-trimester nausea had other plans." |
 | **Ultrasound Visit** | "Visiting MomDoc Tempe was a testament to state-of-the-art prenatal healthcare excellence." | "Walking into MomDoc Tempe on Priest Dr felt more like stepping into a cozy living room than a clinic. Hearing baby's 165 BPM heartbeat filled the room with pure joy." |
-| **Nesting** | "Unlocking nursery aesthetics with curated organic bohemian nursery furniture!" | "Over the weekend, Alex and I painted the nursery wall a soft Sonoran sage green. Cholla spent an hour sniffing every leg of the crib to approve the installation." |
+| **Third Trimester Fog** | "Optimizing third-trimester cognitive alignment and nursery styling." | "Forgive my scattered writing today; third-trimester brain fog is real. I spent ten minutes looking for my glasses while they were on my head." |

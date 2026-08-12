@@ -11,9 +11,10 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     excerpt:
       "Outside in Tempe it is 109 degrees, but inside our quiet kitchen, two digital lines just flipped our whole world upside down.",
     content: [
-      "The morning sun was barely hitting Hayden Butte when I checked the digital test on our bathroom counter. Two pink lines showed up almost instantly. I sat on the bathroom floor for ten minutes in total disbelief, watching our rescue dog Cholla nudge the door open with her nose and rest her head on my knees as if she already knew.",
+      "I promised myself I would keep a neat, thoughtful journal for this pregnancy, but my hands are literally shaking as I write this on our bathroom counter.",
+      "The morning sun was barely hitting Hayden Butte when I checked the digital test. Two pink lines showed up almost instantly. I sat on the bathroom floor for ten minutes in total disbelief, watching our rescue dog Cholla nudge the door open with her nose and rest her head on my knees as if she already knew.",
       "Alex was still asleep in the next room. When I handed him the test, his eyes went wide, and he pulled me into the biggest hug. We just stood there silently in the hallway while the air conditioner hummed overhead.",
-      "Later that afternoon, after asking my mom for recommendations, I called MomDoc Tempe on Priest Drive. The receptionist was wonderfully calm and got me on the schedule right away. Starting this diary to keep track of every little detail for our desert baby.",
+      "Later that afternoon, after asking my mom for recommendations, I called MomDoc Tempe on Priest Drive. The receptionist was wonderfully calm and got me on the schedule right away. Excuse my messy writing today, starting this diary to keep track of every little detail for our desert baby.",
       "xo, Maya",
     ],
     tags: [
@@ -56,9 +57,9 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     excerpt:
       "Catching up after a rough couple of weeks. Afternoon heat combined with first trimester nausea is a real test of endurance.",
     content: [
-      'Sorry I have been so quiet on here lately. Week six hit me like a bag of bricks. It turns out "morning" sickness is a complete misnomer; for me, it peaks around 3:00 PM when the Arizona heat reaches its daily maximum.',
+      'Sorry I have been so quiet on here lately. I promised myself I would update this every week, but week six hit me like a bag of bricks. It turns out "morning" sickness is a complete misnomer; for me, it peaks around 3:00 PM when the Arizona heat reaches its daily maximum.',
       'My mama stopped by with homemade chicken broth and fresh lemons, telling me "tienes que comer, mija" every ten minutes. Alex has been amazing, keeping iced ginger tea prepped in the fridge and taking Cholla on her evening walks when I can barely move from the couch.',
-      "I had a quick phone check-in with the team at MomDoc Tempe earlier this week. They reassured me that afternoon nausea is completely normal and gave me simple tips on electrolyte intake and frequent small snacks. Taking things one day at a time right now.",
+      "I had a quick phone check-in with the team at MomDoc Tempe earlier this week. They reassured me that afternoon nausea is completely normal and gave me simple tips on electrolyte intake and frequent small snacks. Forgive my brief entry, taking things one day at a time right now.",
       "xo, Maya",
     ],
     tags: ["First Trimester", "Morning Sickness", "MomDoc Care", "Family"],
@@ -179,7 +180,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     excerpt:
       "Apologies for the pause in posts! Freelance client deadlines kept me at my desk, but week 15 brought a great energy boost.",
     content: [
-      "Life got busy over the past three weeks! As a freelance designer, fall is always my rush season, and I was pulling long hours finishing branding projects for two local Tempe clients.",
+      "Apologies for the pause in posts on here! As a freelance designer, fall is always my rush season, and I got completely swallowed whole by client logo deadlines for two local Tempe businesses.",
       "The good news is that the second trimester energy boost is 100 percent real. Over the weekend, Alex and I took a walk along Mill Avenue near the Hayden Flour Mill landmark and stopped into a local maternity shop. I bought my very first pair of high-waisted linen trousers that actually stretch over my tiny bump without pinching.",
       "Cholla has taken to resting her chin directly on my stomach whenever I work at my desk. Baby is now the size of an apple, and I am feeling great.",
       "xo, Maya",
@@ -360,6 +361,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     content: [
       "We have officially entered the third trimester! 28 weeks pregnant today.",
       "MomDoc Tempe called earlier this week with my glucose test results: completely normal! My hemoglobin levels are also looking strong, which is a huge relief after keeping up with my iron supplements.",
+      "Forgive my scattered writing today; third-trimester brain fog is real. Yesterday I spent ten minutes looking for my reading glasses while they were sitting right on top of my head.",
       "From this week forward, my visits at MomDoc Tempe shift to every two weeks. We checked fundal height, listened to fetal heart tones, and went over third trimester warning signs. My nesting instincts are in full swing: folding tiny organic cotton onesies and organizing crib sheets.",
       "xo, Maya",
     ],
@@ -497,7 +499,7 @@ export const DIARY_ENTRIES: DiaryEntry[] = [
     content: [
       "Spring in the desert is stunning. Yellow palo verde blossoms cover the walkways, and purple bougainvillea drapes over every wall in our neighborhood.",
       "At my 38-week visit at MomDoc Tempe, my blood pressure was textbook 114/72. The provider performed a gentle cervical exam showing 1 cm dilation and 50 percent effacement.",
-      "I am taking slow walks near Tempe Town Lake, watching the water ripple under the morning sun, sipping red raspberry leaf tea, and practicing deep breathing. We feel calm, peaceful, and ready whenever baby decides it is time.",
+      "Excuse the short update today, sitting at my desk for more than ten minutes feels like a workout! I am taking slow walks near Tempe Town Lake, watching the water ripple under the morning sun, sipping red raspberry leaf tea, and practicing deep breathing. We feel calm, peaceful, and ready whenever baby decides it is time.",
       "xo, Maya",
     ],
     tags: [
