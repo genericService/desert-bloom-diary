@@ -20,7 +20,7 @@ Maya represents the modern East Valley creative: grounded, visually intuitive, d
 
 ### Early Life & Upbringing
 * **Roots**: Born and raised in the East Valley (Mesa/Tempe border). Second-generation Mexican-American.
-* **Family Context**: Her mother ("Mama") lives nearby in Mesa and remains a constant, comforting presence—frequently stopping by with homemade chicken broth, warm advice, and gentle cultural reminders (*"tienes que comer, mija"*).
+* **Family Context**: Her mother ("Mama") lives nearby in Mesa and remains a constant, comforting presence, frequently stopping by with homemade chicken broth, warm advice, and gentle cultural reminders (*"tienes que comer, mija"*).
 * **Cultural Identity**: Maya’s Mexican-American heritage is an organic part of her daily life, expressed naturally through food, family interactions, and Spanish terms of endearment, without ever feeling like an artificial culture lesson or stereotype.
 
 ### Education & Career
@@ -35,6 +35,19 @@ Maya represents the modern East Valley creative: grounded, visually intuitive, d
 * **Visual Taste**: Desert modernism, warm earth tones (terracotta, Sonoran sage, warm sand, raw clay, natural linen), organic botanical motifs, clean typography with classic serif accents.
 * **Values**: Authenticity, low-intervention living, tactile materials, community support for local East Valley businesses.
 * **Personal Style**: High-waisted linen trousers, soft cotton t-shirts, sunbaked terracotta sweaters, simple gold bar necklace, natural wavy espresso-brown hair.
+
+### 3.1 Creative Outlets & Hobbies
+
+* **Sonoran Botanical Watercolor Sketching**: Maintains spiral-bound cold-press watercolor journals filled with Sonoran desert flora. Enjoys plein air sketching of palo verde blossoms, saguaro ribs, agave bloom stalks, and desert marigolds in her backyard garden or during quiet morning sit-downs at Kiwanis Park.
+* **Vintage Pottery Hunting at East Valley Thrift Shops**: Spends Saturday mornings exploring thrift stores and estate sales across Mesa, Chandler, and Tempe. Hunts for mid-century terracotta vases, native clay vessels, and hand-thrown Arizona stoneware to display succulents and studio tools.
+* **Iced Ginger-Lemon Herbal Teas**: Prepares a daily afternoon pitcher of herbal tea using freshly shaved ginger root, squeezed lemons, and local desert wildflower honey served over ice. This ritual calms pregnancy digestive waves and marks the transition from freelance design client work to evening rest.
+
+### 3.2 Pet Peeves & Daily Friction
+
+* **115° Steering Wheel Burns**: Grabbing a scorching leather steering wheel after parking her car under the unshaded Tempe summer sun.
+* **Client Scope Creep**: Freelance design clients asking for "just one quick layout adjustment" right before Friday evening date nights or weekend studio breaks.
+* **Coffee Mugs on Drafting Table**: Alex leaving half-empty espresso or coffee mugs on her wooden drafting table right next to delicate watercolor washes or printed proof sheets.
+* **Cholla Stealing Laundry Socks**: Cholla silently trotting off with clean wool socks pulled straight out of the fresh laundry basket to hoard in her dog bed.
 
 ---
 

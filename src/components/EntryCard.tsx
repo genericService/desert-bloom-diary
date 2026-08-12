@@ -60,15 +60,15 @@ export function EntryCard({ entry, onSelect }: EntryCardProps) {
 
   return (
     <article className="group relative bg-white dark:bg-stone-800 rounded-3xl border border-rose-100 dark:border-stone-700/80 shadow-xs hover:shadow-xl transition-all duration-300 flex flex-col justify-between overflow-hidden">
-      {/* Top Banner image */}
-      <div className="relative h-52 w-full bg-rose-50 dark:bg-stone-700 overflow-hidden">
-        {/* Image overlay */}
+      {/* Top Photo Frame */}
+      <div className="relative h-56 w-full bg-rose-50 dark:bg-stone-700 overflow-hidden">
+        {/* Image */}
         <img
           src={entry.coverImage}
           alt={entry.title}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-stone-900/85 via-stone-900/20 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-stone-900/80 via-stone-900/20 to-transparent" />
 
         {/* Top Badges overlay */}
         <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
@@ -103,7 +103,7 @@ export function EntryCard({ entry, onSelect }: EntryCardProps) {
         {/* Bottom image overlay details */}
         <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between text-xs text-white/90">
           <span
-            className={`px-3 py-0.5 rounded-full text-[11px] font-bold backdrop-blur-md shadow-2xs border ${getTrimesterBadgeColor(entry.trimester)}`}
+            className={`px-3 py-0.5 rounded-full text-[11px] font-semibold backdrop-blur-md shadow-2xs border ${getTrimesterBadgeColor(entry.trimester)}`}
           >
             {getTrimesterLabel(entry.trimester)}
           </span>
@@ -140,22 +140,22 @@ export function EntryCard({ entry, onSelect }: EntryCardProps) {
           </p>
         </div>
 
-        {/* Highlight Metadata Badges */}
+        {/* Personal Details Footer */}
         <div className="pt-3 space-y-3 border-t border-rose-100 dark:border-stone-700/60">
-          {/* MomDoc Tempe Highlight Pill */}
+          {/* MomDoc Tempe Care Note */}
           <div className="bg-rose-50/60 dark:bg-stone-900/60 p-2.5 rounded-2xl border border-rose-100 dark:border-stone-700 flex items-center justify-between text-xs">
             <div className="flex items-center gap-2 text-stone-700 dark:text-stone-300 min-w-0">
               <Heart className="w-3.5 h-3.5 text-rose-500 shrink-0 fill-current" />
-              <span className="font-semibold text-stone-900 dark:text-stone-100 truncate">
-                MomDoc: {entry.momdocHighlight.title}
+              <span className="font-medium text-stone-900 dark:text-stone-100 truncate">
+                MomDoc Care: {entry.momdocHighlight.title}
               </span>
             </div>
-            <span className="text-[10px] font-bold px-2.5 py-0.5 rounded-lg bg-sage-100 dark:bg-sage-950 text-sage-800 dark:text-sage-300 shrink-0">
+            <span className="text-[10px] font-bold px-2 py-0.5 rounded-lg bg-sage-100 dark:bg-sage-950 text-sage-800 dark:text-sage-300 shrink-0">
               {entry.momdocHighlight.careType}
             </span>
           </div>
 
-          {/* Tempe Spot & Tags */}
+          {/* Tempe Spot & Link */}
           <div className="flex items-center justify-between text-xs text-stone-500 dark:text-stone-400">
             <div className="flex items-center gap-1.5 truncate max-w-[200px]">
               <MapPin className="w-3.5 h-3.5 text-rose-500 shrink-0" />
@@ -169,7 +169,7 @@ export function EntryCard({ entry, onSelect }: EntryCardProps) {
               onClick={() => onSelect?.(entry)}
               className="inline-flex items-center gap-1 text-terracotta-600 dark:text-terracotta-400 font-bold hover:underline"
             >
-              <span>Read</span>
+              <span>Read Entry</span>
               <ArrowUpRight className="w-3.5 h-3.5" />
             </Link>
           </div>
