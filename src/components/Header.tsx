@@ -48,7 +48,11 @@ export function Header({ onSearchClick }: HeaderProps) {
   const navLinks = [
     { href: "/", label: "Journal Entries", icon: Calendar },
     { href: "/tracker", label: "Growth Scale", icon: Flower2 },
-    { href: "/momdoc-tempe", label: "MomDoc Care", icon: Stethoscope },
+    {
+      href: "/momdoc-tempe",
+      label: "Our Doctor & Midwives",
+      icon: Stethoscope,
+    },
     { href: "/about", label: "About Maya", icon: Heart },
     { href: "/my-care", label: "Tempe Favorites", icon: Bookmark },
   ];
@@ -98,7 +102,7 @@ export function Header({ onSearchClick }: HeaderProps) {
           })}
         </nav>
 
-        {/* Action icons & CTA */}
+        {/* Action icons */}
         <div className="flex items-center gap-2 sm:gap-3">
           {/* Search Button */}
           {onSearchClick && (
@@ -128,17 +132,6 @@ export function Header({ onSearchClick }: HeaderProps) {
               </span>
             )}
           </Link>
-
-          {/* MomDoc Tempe Care Button */}
-          <a
-            href="https://www.momdoc.com/en/locations/tempe"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden lg:flex items-center gap-2 px-4 py-2.5 rounded-xl bg-rose-600 hover:bg-rose-700 text-white text-xs font-bold shadow-xs hover:shadow-md transition-all border border-rose-500"
-          >
-            <Heart className="w-3.5 h-3.5 fill-current text-white/90" />
-            <span>MomDoc Tempe Care</span>
-          </a>
 
           {/* Mobile menu trigger */}
           <button
@@ -177,17 +170,6 @@ export function Header({ onSearchClick }: HeaderProps) {
               </Link>
             );
           })}
-          <div className="pt-2">
-            <a
-              href="https://www.momdoc.com/en/locations/tempe"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-rose-600 text-white font-bold text-sm shadow-xs"
-            >
-              <Heart className="w-4 h-4 fill-current" />
-              <span>MomDoc Tempe Care Schedule</span>
-            </a>
-          </div>
         </div>
       )}
     </header>

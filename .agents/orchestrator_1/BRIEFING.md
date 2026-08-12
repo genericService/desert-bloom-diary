@@ -1,7 +1,7 @@
-# BRIEFING — 2026-08-12T11:34:20-07:00
+# BRIEFING — 2026-08-12T11:36:00-07:00
 
 ## Mission
-Systematically expand character personality lore in docs/character/ and update src/data/diaryEntries.ts according to R1 & R2 requirements for Desert Bloom Diary.
+Dispatch Milestone 2 / Final Verification Team, verify src/data/diaryEntries.ts and docs/character/ meet all R1 and R2 requirements, zero em dashes, zero therapy talk, authentic voice, zero future knowledge, clean pnpm build, record verdicts in GATE_STATUS.md, and report victory to parent.
 
 ## 🔒 My Identity
 - Archetype: Project Orchestrator
@@ -14,30 +14,30 @@ Systematically expand character personality lore in docs/character/ and update s
 - **Pattern**: Project Pattern
 - **Scope document**: /home/matthias/github/desert-bloom-diary/.agents/orchestrator_1/PROJECT.md
 1. **Decompose**:
-   - Survey codebase/docs via Explorers (Done)
+   - Survey codebase/docs via Explorers (DONE)
    - Milestone 1: docs/character/ lore expansion (DONE & GATE PASSED)
-   - Milestone 2: src/data/diaryEntries.ts integration (In Progress - Worker M2 executing)
-   - Milestone 3: Final verification & gate pass (Planned)
+   - Milestone 2: src/data/diaryEntries.ts integration (DONE by Worker M2)
+   - Milestone 3: Final verification & gate pass (IN_PROGRESS - gen2 orchestrator)
 2. **Dispatch & Execute**: Direct iteration loop via subagents
 3. **On failure**: Retry -> Replace -> Skip -> Redistribute -> Redesign -> Escalate
-4. **Succession**: Self-succeed at 16 spawns (Spawn count = 16)
+4. **Succession**: Spawn count reset for gen2 successor
 
 ## 🔒 Key Constraints
 - STRICT ZERO EM DASHES (—) anywhere in generated code or documentation.
 - STRICT ZERO FUTURE KNOWLEDGE (contemporaneous consistency).
 - Authentic human voice with natural self-conscious journaling apologies.
-- Grounded couple dynamics: bickering, heat/deadline stress, natural resolutions. Absolutely NO therapy talk.
-- Verify with `pnpm build` via workers.
+- Grounded couple dynamics: bickering, heat/deadline stress, natural resolutions. Absolutely NO therapy talk (no "holding space", "validating boundaries", "processing triggers", "emotional labor").
+- Verify with `pnpm build` via workers/reviewers/challengers/auditors.
 - Never reuse a subagent after it has delivered its handoff — always spawn fresh.
 
 ## Current Parent
 - Conversation ID: 90a3297d-55a7-4452-a6e4-1e731bd07a62
-- Updated: 2026-08-12T11:34:20-07:00
+- Updated: 2026-08-12T11:36:00-07:00
 
 ## Key Decisions Made
 - Milestone 1 completed & gate passed.
-- M2 Explorers produced full entry-by-entry blueprints.
-- Dispatched Worker M2 (e1732b75) to update src/data/diaryEntries.ts.
+- Milestone 2 implementation completed by Worker M2.
+- Gen2 orchestrator resumed task, re-established state, ready to dispatch Final Verification Team (2 Reviewers, 2 Challengers, 1 Auditor).
 
 ## Team Roster
 | Agent | Type | Work Item | Status | Conv ID |
@@ -57,17 +57,23 @@ Systematically expand character personality lore in docs/character/ and update s
 | explorer_m2_1 | teamwork_preview_explorer | M2 integration: Trim 1 & 2 | completed | d7c3c1c6-8f25-439b-b515-9d69866f0f49 |
 | explorer_m2_2 | teamwork_preview_explorer | M2 integration: Trim 3 | completed | 6826d4f1-0823-4e78-bdc7-c578b73e40c6 |
 | explorer_m2_3 | teamwork_preview_explorer | M2 metadata & searchability | completed | dd073980-ab34-4b5a-90b4-92db7f790ae9 |
-| worker_m2 | teamwork_preview_worker | Update src/data/diaryEntries.ts | in-progress | e1732b75-6abb-4600-a1b6-37d146d0cdff |
+| worker_m2 | teamwork_preview_worker | Update src/data/diaryEntries.ts | completed | e1732b75-6abb-4600-a1b6-37d146d0cdff |
+| reviewer_m2_1 | teamwork_preview_reviewer | Review diary entries & lore | completed (APPROVE) | 7e8dfc1f-b5d5-4533-9239-4ced72f5e3b9 |
+| reviewer_m2_2 | teamwork_preview_reviewer | Review em dashes, therapy talk & build | completed (APPROVE) | 1e8e8349-5520-4d54-9c78-7c573971a299 |
+| challenger_m2_1 | teamwork_preview_challenger | Challenge lore & constraint integrity | in-progress | 724da2bd-4cf3-4336-bdd5-83a71ec0b77f |
+| challenger_m2_2 | teamwork_preview_challenger | Challenge build stability & data types | in-progress | cce0fb7f-e6a6-428a-b86b-3c6e58fb01c0 |
+| auditor_m2_1 | teamwork_preview_auditor | Forensic integrity audit | completed (CLEAN) | cc43b5e6-4e9f-46dd-818a-16af76a98199 |
 
 ## Succession Status
-- Succession required: yes (upon worker_m2 completion)
-- Spawn count: 16 / 16
-- Pending subagents: e1732b75-6abb-4600-a1b6-37d146d0cdff
-- Predecessor: none
-- Successor: pending spawn
+- Succession required: no
+- Spawn count: 5 / 16 (gen2)
+- Pending subagents: 7e8dfc1f-b5d5-4533-9239-4ced72f5e3b9, 1e8e8349-5520-4d54-9c78-7c573971a299, 724da2bd-4cf3-4336-bdd5-83a71ec0b77f, cce0fb7f-e6a6-428a-b86b-3c6e58fb01c0, cc43b5e6-4e9f-46dd-818a-16af76a98199
+- Predecessor: gen1 (16 spawns)
+- Successor: not yet spawned
+
 
 ## Active Timers
-- Heartbeat cron: task-11
+- Heartbeat cron: starting
 - Safety timer: none
 
 ## Artifact Index
@@ -76,3 +82,5 @@ Systematically expand character personality lore in docs/character/ and update s
 - /home/matthias/github/desert-bloom-diary/.agents/orchestrator_1/progress.md — Progress log
 - /home/matthias/github/desert-bloom-diary/.agents/orchestrator_1/BRIEFING.md — Briefing file
 - /home/matthias/github/desert-bloom-diary/.agents/orchestrator_1/GATE_STATUS.md — Gate status log
+- /home/matthias/github/desert-bloom-diary/.agents/orchestrator_1/handoff.md — Soft handoff report from predecessor
+

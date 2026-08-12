@@ -32,15 +32,15 @@ export function HeroSection() {
               <span className="text-terracotta-600 dark:text-terracotta-400 italic font-normal">
                 Desert Bloom
               </span>
-              {" burnt-rose notebook."}
+              {" notebook."}
             </h1>
 
             <p className="text-base sm:text-lg text-stone-600 dark:text-stone-300 leading-relaxed font-light">
               Hi, I’m Maya! I’m a 29-year-old freelance graphic designer living
               in South Tempe with my husband Alex and our rescue pup Cholla.
               This is my real-time diary documenting our 40-week journey to
-              meeting baby Mateo, supported by our wonderful care team at MomDoc
-              Tempe.
+              meeting baby Mateo, shared with family, friends, and anyone
+              expecting a desert baby.
             </p>
 
             {/* Cozy Meta Badges */}
@@ -55,7 +55,7 @@ export function HeroSection() {
               </div>
               <div className="flex items-center gap-1.5 bg-white/90 dark:bg-stone-800 px-3.5 py-2 rounded-2xl border border-rose-100 dark:border-stone-700 shadow-2xs">
                 <Heart className="w-4 h-4 text-rose-500 fill-current" />
-                <span>Care at MomDoc Tempe</span>
+                <span>First-Time Pregnancy</span>
               </div>
             </div>
 
@@ -106,13 +106,11 @@ export function HeroSection() {
                 </div>
                 <p className="text-xs text-stone-600 dark:text-stone-300 font-light leading-relaxed italic">
                   "Delivered safely on his exact due date! 7 lbs 11 oz of pure
-                  desert sunshine. Thank you to our MomDoc midwives for guiding
-                  us every step of the way."
+                  desert sunshine. So thankful for our midwives off Priest Dr
+                  who supported us every step of the way."
                 </p>
                 <div className="pt-2 border-t border-rose-100 dark:border-stone-700 flex items-center justify-between text-xs text-stone-500 dark:text-stone-400">
-                  <span className="font-serif italic">
-                    1634 S. Priest Dr. Care
-                  </span>
+                  <span className="font-serif italic">South Tempe, AZ</span>
                   <Link
                     href="/about"
                     className="text-terracotta-600 dark:text-terracotta-400 font-bold hover:underline"
